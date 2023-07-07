@@ -1,0 +1,8 @@
+.cartButton{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+}

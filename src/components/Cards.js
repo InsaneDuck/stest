@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import Card from "./Card";
+import ProductCard from "./ProductCard";
 import styles from "./Cards.module.css"
 
 const Cards = () => {
@@ -71,7 +71,7 @@ const Cards = () => {
 
     return (
         <div className={styles.cardContainer}>
-            {products.map(product => <Card
+            {products.map(product => <ProductCard
                 key={product.productId}
                 image={product.image}
                 title={product.title}

@@ -1,5 +1,5 @@
-import styles from "./Card.module.css"
-const Card = ({key,productId,sku,title,price,image}) => {
+import styles from "./ProductCard.module.css"
+const ProductCard = ({key,productId,sku,title,price,image}) => {
 
     return (
         <>
@@ -17,4 +17,4 @@ const Card = ({key,productId,sku,title,price,image}) => {
     )
 };
 
-export default Card;
+export default ProductCard;
